@@ -1,0 +1,11 @@
+#!/bin/sh
+# Blocks commits containing secrets (API keys, tokens, private keys, etc.)
+# Activate with: git config core.hooksPath hooks
+# Requires: brew install gitleaks
+
+if ! command -v gitleaks >/dev/null 2>&1; then
+  echo "pre-commit: gitleaks not installed — run 'brew install gitleaks'. Refusing to commit unscanned." >&2
+  exit 1
+fi
+
+gitleaks protect --staged --redact --no-banner

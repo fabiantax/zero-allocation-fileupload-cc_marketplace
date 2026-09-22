@@ -1,0 +1,15 @@
+{
+  "name": "claude-plugins",
+  "owner": {
+    "name": "Fabian"
+  },
+  "description": "Team Claude Code plugin marketplace for GitHub project-management tooling.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "github-pm",
+      "source": "./plugins/github-pm",
+      "description": "ccpm skill (PRD -> Epic -> GitHub Issues -> shipped code) plus the official GitHub MCP server."
+    }
+  ]
+}

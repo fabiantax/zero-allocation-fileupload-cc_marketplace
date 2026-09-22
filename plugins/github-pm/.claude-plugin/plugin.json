@@ -1,0 +1,10 @@
+{
+  "name": "github-pm",
+  "description": "GitHub project management: spec-driven delivery (PRD -> Epic -> GitHub Issues -> shipped code) via the ccpm skill, plus the official GitHub MCP server for direct issue/PR/repo operations.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Fabian"
+  },
+  "license": "MIT",
+  "keywords": ["github", "project-management", "ccpm", "issues", "pull-requests"]
+}
