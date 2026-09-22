@@ -1,12 +1,12 @@
-# claude-plugins
+# zero-allocation-fileupload-cc_marketplace
 
 Team Claude Code plugin marketplace.
 
 ## Install
 
 ```
-/plugin marketplace add fabiantax/team-github-pm
-/plugin install github-pm@team-github-pm
+/plugin marketplace add fabiantax/zero-allocation-fileupload-cc_marketplace
+/plugin install github-pm@zero-allocation-fileupload-cc_marketplace
 ```
 
 Then see [`plugins/github-pm/README.md`](plugins/github-pm/README.md) for the one-time `GITHUB_PAT` setup the bundled MCP server needs.
