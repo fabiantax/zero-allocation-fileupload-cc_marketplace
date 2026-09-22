@@ -5,8 +5,8 @@ Team Claude Code plugin marketplace.
 ## Install
 
 ```
-/plugin marketplace add fabiantax/claude-plugins
-/plugin install github-pm@claude-plugins
+/plugin marketplace add fabiantax/team-github-pm
+/plugin install github-pm@team-github-pm
 ```
 
 Then see [`plugins/github-pm/README.md`](plugins/github-pm/README.md) for the one-time `GITHUB_PAT` setup the bundled MCP server needs.
